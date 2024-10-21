@@ -15,7 +15,8 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm{" "}
+          <span className="text-designColor capitalize">Vincent Mugondora</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -26,13 +27,13 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          I'm Vincent, a software developer building impactful solutions. I love
+          teaching coding and working with technologies like JavaScript and
+          React. Currently, I'm building web apps and teaching kids to code.
         </p>
       </div>
-     {/* Media */}
-     <Media />
+      {/* Media */}
+      <Media />
     </div>
   );
 }
