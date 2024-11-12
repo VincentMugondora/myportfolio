@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className="container w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
@@ -33,6 +33,15 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            <li>
+              <a
+                href="../../assets/docs/Vincent Mugondora CV.pdf"
+                download
+                className="text-base font-normal bg-[#131618] px-6 py-2 rounded text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
+              >
+                Download CV
+              </a>
+            </li>
           </ul>
           <span
             onClick={() => setShowMenu(!showMenu)}
@@ -101,6 +110,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
