@@ -29,9 +29,6 @@ const Media = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
               <SiTailwindcss />
             </span>
             <span className="bannerIcon">
