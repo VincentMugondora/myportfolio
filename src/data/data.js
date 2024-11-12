@@ -7,8 +7,8 @@ export const featuresData = [
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Designing and building mobile and web applications with a focus on functionality and user experience.",
+    title: "Web Development",
+    des: "Designing and building responsive web applications with a focus on functionality and user experience.",
   },
   {
     id: 6,
